@@ -3,7 +3,7 @@ namespace app\admin\controller;
 
 use think\Controller;
 
-class Index extends Controller
+class Index extends Base
 {
     public function index()
     {
@@ -12,7 +12,7 @@ class Index extends Controller
     }
 
     public function welcome(){
-        return "hello wordl";
+        return "hello world";
     }
 }
 
